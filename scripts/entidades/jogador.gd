@@ -2,17 +2,28 @@ extends CharacterBody2D
 @onready var animacao = $AnimatedSprite2D
 
 const SPEED = 80.0
+var virado: String
+var anim: String
 
-#roda a cada frame
-func _physics_process(delta: float) -> void:
+func _physics_process(delta: float) -> void: #roda todo frame
 	
 	#Pega input e define vetor direcao
 	var direcao = Input.get_vector("andar_esquerda","andar_direita", "andar_cima", "andar_baixo")
 	
+	#se apertou pra andar
 	if direcao:
 		velocity = direcao * SPEED
-		
+		#verifica pra onde o caba ta virado
+		if abs(direcao.x) > abs(direcao.y):
+			virado = "r" if (direcao.x > 0) else "l"	
+		else:
+			virado = "d" if (direcao.y > 0) else "u"
+		#define a animação e direção certa
+		anim = virado+"_"+"andar"
 	else:
-		velocity = direcao.move_toward(Vector2.ZERO, SPEED/2)
+		velocity = Vector2.ZERO
+		anim = virado+"_"+"idle"
 		
+	animacao.play(anim)
+	#faz mover de acordo com velocity e cuida da colisao
 	move_and_slide()

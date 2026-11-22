@@ -8,5 +8,7 @@ script = ExtResource("1_mtgg2")
 
 [node name="Mundo" type="Node2D" parent="." unique_id=970970676]
 
-[node name="Jogador" parent="Mundo" unique_id=350668022 instance=ExtResource("2_t4ukd")]
+[node name="Neville" parent="Mundo" unique_id=350668022 instance=ExtResource("2_t4ukd")]
 position = Vector2(332, 227)
+
+[node name="Camera2D" type="Camera2D" parent="Mundo/Neville" unique_id=226184721]

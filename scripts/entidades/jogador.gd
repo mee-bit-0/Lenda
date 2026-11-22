@@ -18,7 +18,7 @@ func _physics_process(delta: float) -> void: #roda todo frame
 			virado = "r" if (direcao.x > 0) else "l"	
 		else:
 			virado = "d" if (direcao.y > 0) else "u"
-		#define a animação e direção certa
+		#define a animação virada pra direção certa
 		anim = virado+"_"+"andar"
 	else:
 		velocity = Vector2.ZERO

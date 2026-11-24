@@ -2,7 +2,7 @@ extends CharacterBody2D
 @onready var animacao = $AnimatedSprite2D
 
 const SPEED = 80.0
-var virado: String
+var virado: String = "d"
 var anim: String
 
 func _physics_process(delta: float) -> void: #roda todo frame

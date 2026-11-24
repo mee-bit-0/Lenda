@@ -12,3 +12,4 @@ script = ExtResource("1_mtgg2")
 position = Vector2(332, 227)
 
 [node name="Camera2D" type="Camera2D" parent="Mundo/Neville" unique_id=226184721]
+position = Vector2(0, -1)

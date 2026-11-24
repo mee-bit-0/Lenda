@@ -376,6 +376,7 @@ script = ExtResource("1_3cibl")
 shape = SubResource("CapsuleShape2D_4l1eu")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1175371448]
+scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_6m0il")
 animation = &"d_morrer"
 autoplay = "d_idle"

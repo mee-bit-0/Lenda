@@ -1,11 +1,11 @@
 extends CharacterBody2D
 @onready var animacao = $AnimatedSprite2D
 
-const SPEED = 80.0
+const SPEED = 100.0
 var virado: String = "d"
 var anim: String
 
-func _physics_process(delta: float) -> void: #roda todo frame
+func _physics_process(_delta: float) -> void: #roda todo frame
 	
 	#Pega input e define vetor direcao
 	var direcao = Input.get_vector("andar_esquerda","andar_direita", "andar_cima", "andar_baixo")

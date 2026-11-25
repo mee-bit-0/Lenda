@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bc7ox0p0g0l4u"
-path="res://.godot/imported/TopDownHouse_FurnitureState1.png-dc2dd8592bbe286f0317dc94d3460b8b.ctex"
+uid="uid://b6ewhvssyvw2h"
+path="res://.godot/imported/Vinyl-Sheet16x16.png-0c275c027d25c00e8f1d20f436e4074e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/cenario/tiles/TopDownHouse_FurnitureState1.png"
-dest_files=["res://.godot/imported/TopDownHouse_FurnitureState1.png-dc2dd8592bbe286f0317dc94d3460b8b.ctex"]
+source_file="res://assets/sprites/itens/Vinyl-Sheet16x16.png"
+dest_files=["res://.godot/imported/Vinyl-Sheet16x16.png-0c275c027d25c00e8f1d20f436e4074e.ctex"]
 
 [params]
 

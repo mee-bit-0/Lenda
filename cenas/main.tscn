@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://3h01oicxg3xh"]
 
 [ext_resource type="Script" uid="uid://bm2auy11uewh3" path="res://scripts/main.gd" id="1_mtgg2"]
+[ext_resource type="PackedScene" uid="uid://46rln06cyswx" path="res://cenas/cenarios/mapa.tscn" id="2_4fhxt"]
 [ext_resource type="PackedScene" uid="uid://ci141aoxn8i21" path="res://cenas/entidades/jogador/Jogador.tscn" id="2_t4ukd"]
 
 [node name="Main" type="Node" unique_id=536813377]
@@ -9,7 +10,9 @@ script = ExtResource("1_mtgg2")
 [node name="Mundo" type="Node2D" parent="." unique_id=970970676]
 
 [node name="Neville" parent="Mundo" unique_id=350668022 instance=ExtResource("2_t4ukd")]
-position = Vector2(332, 227)
+position = Vector2(511, 715)
 
 [node name="Camera2D" type="Camera2D" parent="Mundo/Neville" unique_id=226184721]
 position = Vector2(0, -1)
+
+[node name="mapa" parent="Mundo" unique_id=1365364229 instance=ExtResource("2_4fhxt")]

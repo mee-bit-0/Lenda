@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ql2ag4yfkppg"
-path="res://.godot/imported/TopDownHouse_SmallItems.png-5b9fe504ea2a04d1d5c9244fe7107a1a.ctex"
+uid="uid://khj4fbvol5qe"
+path="res://.godot/imported/rock_medium.png-3f92e4b244b6c990597308fac361e6d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/cenario/objetos/TopDownHouse_SmallItems.png"
-dest_files=["res://.godot/imported/TopDownHouse_SmallItems.png-5b9fe504ea2a04d1d5c9244fe7107a1a.ctex"]
+source_file="res://assets/sprites/cenario/objetos/rock_medium.png"
+dest_files=["res://.godot/imported/rock_medium.png-3f92e4b244b6c990597308fac361e6d7.ctex"]
 
 [params]
 
